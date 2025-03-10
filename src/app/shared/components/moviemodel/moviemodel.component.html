@@ -1,0 +1,41 @@
+ 
+<div class="row bg">
+    <div class="col-md-4 mb-2" *ngFor="let movies of moviesArray">
+        <div class="card">
+            <figure class="moviesCArd">
+
+                <img src="https://image.tmdb.org/t/p/w500/{{movies.backdrop_path}}" 
+                alt="movies.title"
+                />
+
+                <figcaption>
+                    <div class="titleinfo">
+                        <div class="row">
+                            <div class="col-10">
+                                <h4 class="mb-0">
+                                    {{movies.title}}  
+                                </h4>
+                            </div>
+                            <div class="col-2">
+                                <span class=" py-2 px-4 bg-warning"
+                                [ngClass]="{
+                                    'bg-red' : movies.vote_average >= 7
+                                }">
+                                    6
+                                </span>             
+                            </div>
+                        </div>
+                    </div>
+                     <div class="overview">
+                                <h5>
+                                    {{movies.title}}  
+                                </h5>
+                                <p class="mb-0">
+                                    {{movies.overview}}
+                                </p>
+                            </div>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+ </div>

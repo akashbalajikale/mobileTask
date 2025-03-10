@@ -38,7 +38,9 @@
 // .bg{
 //     background-color:#22254b ;
 // }
-
+.rating{
+    font-size: 16px;
+}
 .moviesCArd:is(:hover, :focus, :active) .overview{
     top: 30%;
 }

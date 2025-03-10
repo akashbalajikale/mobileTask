@@ -16,7 +16,7 @@ export let movieArray:Array<imovies> = [
         "popularity": 711.057,
         "poster_path": "/ngl2FKBlU4fhbdsrtdom9LVLBXw.jpg",
         "release_date": "2023-02-15",
-        "title": "Ant-Man and the Wasp: Quantumania",
+        "title": "Ant-Man and the Wasp ",
         "video": false,
         "vote_average": 6.4,
         "vote_count": 1077
@@ -266,12 +266,12 @@ export let movieArray:Array<imovies> = [
         ],
         "id": 458156,
         "original_language": "en",
-        "original_title": "John Wick: Chapter 3 - Parabellum",
+        "original_title": "John Wick: Chapter 3",
         "overview": "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.",
         "popularity": 660.42,
         "poster_path": "/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg",
         "release_date": "2019-05-15",
-        "title": "John Wick: Chapter 3 - Parabellum",
+        "title": "John Wick: Chapter 3 ",
         "video": false,
         "vote_average": 7.4,
         "vote_count": 8790
@@ -332,7 +332,7 @@ export let movieArray:Array<imovies> = [
         "popularity": 479.628,
         "poster_path": "/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",
         "release_date": "2020-10-16",
-        "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+        "title": "Demon Slayer -Kimetsu no Yaiba- ",
         "video": false,
         "vote_average": 8.3,
         "vote_count": 3006
